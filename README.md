@@ -42,11 +42,19 @@ npm install --save @types/node
   - Add `"prepublish": "tsc"` to `package.json`
 
 **Run build**
+```bash
+npm run build
+```
 
 **Tools**
 - Look details before publish
   - `npm pack` > The pack command creates a `.tgz` file exactly the way it would if you were going to publish the package to npm.
 - Test Pack with `npm link`: See more in references.
+
+**Publish** ( login in npm acc and... )
+```bash
+npm publish
+```
 
 **References**
 - https://cameronnokes.com/blog/the-30-second-guide-to-publishing-a-typescript-package-to-npm/
