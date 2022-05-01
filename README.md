@@ -1,0 +1,1 @@
+# rc-npm-lib-ts-test
